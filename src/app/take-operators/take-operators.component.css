@@ -1,0 +1,17 @@
+.mybutton{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: beige;
+  color: black;
+}
+.myinput {
+
+  width: 50%;
+  border: solid;
+  background-color: beige;
+  color: black;
+
+}

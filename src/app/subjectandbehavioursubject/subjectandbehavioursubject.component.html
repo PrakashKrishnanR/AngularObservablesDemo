@@ -1,0 +1,67 @@
+<button (click)="addNewSubject()" class="btn-info"> Click to Add value to Subject </button>
+<button (click)="addNewBehaviourSubject()"  class="btn-dark"> click to add new value to behaviour subject </button>
+
+<div class="card">
+  <div class="card-body">
+    <div class="card-header">
+      <div class="row">
+        <h5 class="card-title col-sm-7">Subject Component</h5>
+        <button class="btn btn-primary col-sm-5"
+                (click)="subscribeToSubject()">Subscribe to Subject</button>
+      </div>
+    </div>
+    <div class="border min-height-100">
+      <h5 class="card-title text-center">Data Window</h5>
+      <p class="card-text text-center">{{ subjectData }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="card-header">
+      <div class="row">
+        <h5 class="card-title col-sm-7">Behavior Subject Component</h5>
+        <button class="btn btn-primary col-sm-5"
+                (click)="subscribeToBehaviorSubject()">Subscribe to Behavior Subject</button>
+      </div>
+    </div>
+    <div class="border min-height-100">
+      <h5 class="card-title text-center">Data Window</h5>
+      <p class="card-text text-center">{{ behaviourData }}</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-body">
+    <div class="card-header">
+      <div class="row">
+        <h5 class="card-title col-sm-7">Subject Component -2 </h5>
+        <button class="btn btn-primary col-sm-5"
+                (click)="subscribeToSubject2()">Subscribe to Subject - 2</button>
+      </div>
+    </div>
+    <div class="border min-height-100">
+      <h5 class="card-title text-center">Data Window</h5>
+      <p class="card-text text-center">{{ subjectData2 }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="card-header">
+      <div class="row">
+        <h5 class="card-title col-sm-7">Behavior Subject Component - 2 </h5>
+        <button class="btn btn-primary col-sm-5"
+                (click)="subscribeToBehaviorSubject2()">Subscribe to Behavior Subject - 2 </button>
+      </div>
+    </div>
+    <div class="border min-height-100">
+      <h5 class="card-title text-center">Data Window</h5>
+      <p class="card-text text-center">{{ behaviourData2 }}</p>
+    </div>
+  </div>
+</div>
